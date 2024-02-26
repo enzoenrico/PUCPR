@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website RA2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="header">
+        <a href="#home">Home</a>
+        <a href="#">Em cartaz</a>
+        <a href="#">Em breve</a>
+        <a href="#">Melhores Filmes</a>
+        <a href="#voumematar" onclick="getMovie()">Último filme lançado</a>
+    </nav>
+
+    <br /><br />
+
+    <section class="section-filmes">
+        <h1 class="destaque">Filmes em destaque</h1>
+        <div class="filmes-wrapper">
+
+            <div class="filme">
+                <div class="imagem-filme" id="filme-1">
+                </div>
+                <br />
+
+                <div class="titulo">
+                    Fight Club
+                </div>
+                <div class="sinopse">
+                    Um homem comum e entediado, sem nome, se envolve em uma organização clandestina chamada Clube da
+                    Luta, onde homens lutam uns contra os outros para liberar sua raiva e frustrações. Conforme o clube
+                    ganha popularidade e se torna mais extremo, o protagonista é consumido por uma espiral de violência,
+                    questionando sua própria identidade e a sociedade em que vive. Um filme provocativo que aborda temas
+                    de masculinidade tóxica e alienação.
+                </div>
+
+                <div class="elenco">
+                    <h4 class="elenco-list">Elenco</h4>
+                    <li>
+                        Brad Pitt como Tyler Durden
+                    </li>
+                    <li>
+                        Edward Norton como Narrador
+                    </li>
+                    <li>
+                        Helena Bonham Carter como Marla Singer
+                    </li>
+                </div>
+
+            </div>
+
+            <div class="filme">
+                <div class="imagem-filme" id="filme-2">
+                </div>
+                <br />
+                <div class="titulo">
+                    Lorax
+                </div>
+                <div class="sinopse">
+                    Em um mundo onde a natureza foi devastada pelo progresso industrial, um jovem chamado Ted embarca em
+                    uma jornada para encontrar uma árvore real e descobrir a verdade por trás da história do Lorax, um
+                    protetor ambiental. Enfrentando obstáculos e a ganância corporativa do vilão O'Hare, Ted se esforça
+                    para salvar o último resquício de natureza e trazer esperança para um futuro sustentável. Uma
+                    animação encantadora e tocante, com uma mensagem ambiental poderosa.
+                </div>
+
+                <div class="elenco">
+                    <h4 class="elenco-list">Elenco</h4>
+                    <li>
+                        Zac Efron como Ted (voz)
+                    </li>
+                    <li>
+                        Danny DeVito como Lorax (voz)
+                    </li>
+                    <li>
+                        Taylor Swift como Audrey (voz)
+                    </li>
+                </div>
+
+            </div>
+
+            <div class="filme">
+                <div class="imagem-filme" id="filme-3">
+                </div>
+                <br />
+                <div class="titulo">
+                    Psicopata Americano
+                </div>
+                <div class="sinopse">
+                    Patrick Bateman, um jovem banqueiro de Wall Street, esconde sua vida dupla como assassino em série.
+                    Ele mergulha em uma espiral de violência e psicopatia, revelando os horrores escondidos por trás da
+                    fachada perfeita da sociedade de consumo dos anos 80. Um thriller psicológico perturbador que
+                    questiona a natureza da identidade e da sanidade.
+                </div>
+
+                <div class="elenco">
+                    <h4 class="elenco-list">Elenco</h4>
+                    <li>
+                        Christian Bale como Patrick Bateman
+                    </li>
+                    <li>
+                        Jared Leto como Paul Allen
+
+
+                    </li>
+                    <li>
+                        Willem Dafoe como Detetive Donald Kimball
+                    </li>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- <section class="about-sec" id="about">
+        <div class="about-main">
+            <div class="about-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur culpa quibusdam, maiores nemo assumenda
+                dolores sint consectetur magni minima itaque impedit eius ut expedita, iste excepturi fugit laudantium
+                doloribus numquam?
+            </div>
+            <div class="about-img">
+                <img src="#">
+            </div>
+        </div>
+    </section> -->
+
+    <section class="formulario" id="contact">
+        <h3>Queremos conhecer suas preferencias!</h3>
+        <div class="form-wrapper">
+            <form>
+                <input type="text" placeholder="Seu Nome" id="form-name">
+                <p>Como você prefere assistir filmes?</p>
+
+                <input type="radio" class="botao" value="sozinho">
+                <label for="sozinho">Sozinho</label><br>
+                <input type="radio" class="botao" value="parceiro">
+                <label for="parceiro">Com um parceiro</label><br>
+                <input type="radio" class="botao" value="amigos">
+                <label for="amigos">Com amigos</label><br>
+                <input type="radio" class="botao" value="familia">
+                <label for="familia">Com a familia</label><br>
+
+                <br>
+
+                <p>Qual seus estilos de filme favoritos?</p>
+
+                <input type="checkbox" class="botao" value="sozinho">
+                <label for="sozinho">Romance</label><br>
+                <input type="checkbox" class="botao" value="parceiro">
+                <label for="parceiro">Comédia</label><br>
+                <input type="checkbox" class="botao" value="amigos">
+                <label for="amigos">Terror</label><br>
+                <input type="checkbox" class="botao" value="familia">
+                <label for="familia">Suspense</label><br>
+
+
+                <button id="form-button" onclick="sendForm()">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="filmesmaisassistidos">
+
+        <h3 class="titulo-tabela">Os três filmes mais assitidos na cidade</h3>
+
+        <table>
+            <tr>
+                <th>Titulo</th>
+                <th>Gênero</th>
+                <th>Direção</th>
+            </tr>
+            <tr>
+                <td>Carros 2</td>
+                <td>Animação</td>
+                <td>John Lasseter</td>
+            </tr>
+            <tr>
+                <td>007 - Skyfall</td>
+                <td>Ação</td>
+                <td>Sam Mendes</td>
+            </tr>
+            <tr>
+                <td>Velozes e furiosos</td>
+                <td>Ação</td>
+                <td>Louis Louterrier</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="voumematar" id="voumematar">
+        <div class="film">
+            <h1 class="titulofilme">lorem</h1>
+            <h1 class="genero"></h1>
+            <h1 class="overview"></h1>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="wrapper-footer">
+            <b>Todos os direitos reservados, desenvolvido por Enzo Enrico e Vinicius Dorneles, 2023
+            </b>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

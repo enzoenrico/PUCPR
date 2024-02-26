@@ -1,0 +1,237 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  overflow-x: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0e0441;
+  color: white;
+  overflow-x: none;
+}
+
+.header {
+  position: fixed;
+  width: 99vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: #06021d;
+  border-bottom: 2px solid #2409a7;
+  font-size: 16px;
+
+  /* padding: 10px; */
+}
+
+.header a {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+  transition: 0.5s;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+.header a:hover {
+  background-color: gray;
+}
+
+/* .header a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #2409a7;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} */
+
+.section-filmes {
+  width: 99vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* background-image: url("ztbad1qj8vdjqe0p.jpg"); */
+}
+
+.filmes-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 80vw;
+  width: 100vw;
+
+  padding: 15px;
+}
+
+.destaque {
+  text-decoration: underline;
+  color: blue;
+  height: 20vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filme {
+  width: 30%;
+  height: 80%;
+
+  background: #06021d;
+  border: 2px solid #2409a7;
+  padding: 10px;
+  margin: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imagem-filme{
+    width: 100%;
+    height: 60%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-image: url('ztbad1qj8vdjqe0p.jpg');
+}
+
+#filme-1{
+  background-image: url('vou\ me\ matar.jpg');
+  background-position: center;
+  background-size: contain;
+}
+#filme-2{
+  background-image: url('bolas.jpg');
+  background-position: center;
+  background-size: contain;
+}
+#filme-3{
+  background-image: url('vou\ me\ matar\ tambem.jpg');
+  background-position: center;
+  background-size: contain;
+}
+
+.about-sec {
+  width: 99vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-text {
+  width: 50%;
+  font-size: 32px;
+}
+
+.formulario {
+  width: 99vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-wrapper {
+  border: 2px solid #2409a7;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 75%;
+  height: 75%;
+}
+
+.form-wrapper form {
+  padding: 10px;
+}
+
+.form-wrapper form #form-name {
+  border: 2px solid #2409a7;
+  width: 80%;
+  height: 5vh;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 5px;
+  background-color: #0e0441;
+  color: white;
+}
+
+#form-msg {
+  height: 15vh;
+}
+
+.form-wrapper form button {
+  background-color: #0e0441;
+  padding: 15px;
+  border: 2px solid #2409a7;
+  border-radius: 10px;
+  color: white;
+  transition: 0.5s;
+}
+
+.form-wrapper form button:hover {
+  padding: 20px;
+}
+
+.filmesmaisassistidos{
+    width: 100vw;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table, td, th{
+    border: 1px solid #2409a7;
+    padding: 5px;
+}
+
+.footer {
+  width: 99vw;
+  height: 5vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font: 15px;
+
+  border-top: 2px solid #2409a7;
+  background-color: darkgray;
+}

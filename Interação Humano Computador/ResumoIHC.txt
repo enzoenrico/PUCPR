@@ -1,0 +1,54 @@
+class Resumo{
+    const interação = (usuário, interface, objetivo)=>{
+        //Forma de como o usuário se comunica com a plataforma;
+        //Contexto de uso define parametros como ambiente físico, social e cultural para ressonar da melhor forma com o usuário
+        //I.E: Acessibilidade, equipamento onde o software é rodado, linguagem, etc.
+
+        instrução(){
+            //Sistema informa o usuário como interagir o software;
+            //I.E: Menus, linhas de comando, ícones
+            //Interação flui como uma *conversação*
+        }
+        interface(){
+            //O meio de comunicação que possibilita o usuário o que esperar dentro do sistema;
+            //O contato mais direto dentre o usuário médio e o sistema;
+        }
+
+        affordance(){
+            //Algo intuítivo para o usuário, que possa ser usado sem instruções prévias;
+            //I.E: Ícones, imagens, botões, etc.;
+            //Affordance deve ser baseado no background do usuário;
+            // Affordance <-> Usuário Requisitos;
+
+            //Affordance pode atraír usuários ou até mesmo os afastar, depende do nicho que o sistema busca satisfazer;
+            this.types = {
+                Explícito: "Fácil de reconhecer, apoio de textos para guiar o usuário",
+                Padrão: "Leva em consideração experiência prévia do usuário",
+                Metafórico: "Objetos do mundo real usados como elementos para guiar o usuário",
+                Oculto: "Um evento de ativação que não é explicito para o usuário (I.E: Submenus)"
+            }
+
+            //Podem existir também *Falsos affordances*, onde elementos do software podem guiar o usuário para uma direção diferente da desejada
+            }
+
+        this.usuário as UsuárioRequisitos = {
+            //Identifcar o publico alvo para aplicação e tornar sua experiência o mais satisfatória e engajante o possivél
+            this.características = ["Dados demográficos", "Educação", "Experiência com produtos semelhantes", "Necessidades do usuário", "Objetivos", "Tarefas"];
+
+            this.perfil = "Descrição detalhada de características do usuário que utilizará o sistema"
+        }
+        //Avaliar qual o tipo de usuário utilizando o sistema para aplicação de conceitos;
+        pesquisaDesign(){
+            //Investigr através de diversas fontas o potencial de um produto ressonar com seu público alvo;
+            //Investigações para entender qual o nicho de usuários desejado para desenvolver uma experiência customizada;
+            //Envolver as pessoas no processo de pesquisa auxilia desenvolvedores e Product Managers a ter uma direção clara para o projeto deve ir;
+            this.técnicas = {
+                Brainstroming: "Sessão colaborativa para ideias relacionadas ao desenvolvimento do produto",
+                Mapa da empatia: "(Não fazer a piada no resumo) Desenhar o perfil do cliente ideal para se colocar em seu lugar quando pensando em features necessárias",
+                Persona: "Criar um personagem como o usuário médio para melhor direcionar aplicações",
+                Analise de concorrentes: "Analisar produtos semelhantes para ter um desenvolvimento mais rápido que ressona com os usuários"
+            }
+        }
+
+    }
+}

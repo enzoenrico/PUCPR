@@ -1,0 +1,51 @@
+1: Aluno - Ana Silva
+- Nome: Ana Silva
+- Informações Pessoais: 
+  - Idade: 16 anos
+  - Série: 11ª
+- Dores:
+  - Dificuldade em acompanhar as datas de provas e prazos de tarefas.
+  - Falta de interação com colegas e professores fora da sala de aula.
+- Necessidades:
+  - Um painel de aluno que exiba claramente trabalhos atribuídos, datas de provas e prazos de tarefas.
+  - Um feed de posts para interagir com colegas e professores.
+  - Acesso fácil aos boletins e notas online para acompanhar o desempenho acadêmico.
+
+2: Professor - Carlos Mendes
+- Nome: Carlos Mendes
+- Informações Pessoais: 
+  - Idade: 35 anos
+  - Matéria: Matemática
+- Dores:
+  - Dificuldade em organizar e distribuir tarefas e avaliações.
+  - Falta de um sistema eficiente para registro de presença.
+- Necessidades:
+  - Um painel de professor para postar tarefas, provas e atividades.
+  - Uma ferramenta para registrar a presença dos alunos de forma rápida e precisa.
+  - A capacidade de criar e administrar avaliações online de maneira conveniente.
+
+3: Administrador - Maria Santos
+- Nome: Maria Santos
+- Informações Pessoais: 
+  - Cargo: Diretora Administrativa
+  - Idade: 45 anos
+- Dores:
+  - Dificuldade em manter registros de alunos organizados e atualizados.
+  - Desafios no controle financeiro e no monitoramento de mensalidades atrasadas.
+- Necessidades:
+  - Acesso ao painel administrativo para gerenciar informações de alunos e armazenar documentos.
+  - Registro de despesas e receitas da escola para controle financeiro.
+  - Pesquisas e relatórios para acessar informações específicas sobre desempenho acadêmico e financeiro.
+
+4: Administrador de TI - Rafael Oliveira
+- Nome: Rafael Oliveira
+- Informações Pessoais: 
+  - Cargo: Administrador de TI
+  - Idade: 30 anos
+- Dores:
+  - Preocupações com a segurança de dados pessoais dos alunos.
+  - Necessidade de alta disponibilidade e segurança no ambiente de hospedagem.
+- Necessidades:
+  - Implementação de medidas de segurança, como controle de acesso baseado em função.
+  - Hospedagem do sistema e dos dados em um servidor próprio para controle total.
+  - Banco de dados seguro e organizado com backups regulares para proteção dos dados.

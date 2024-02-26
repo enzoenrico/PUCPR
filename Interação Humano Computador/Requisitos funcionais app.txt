@@ -1,0 +1,83 @@
+
+Requisitos Funcionais:
+
+1. Sistema de Autenticação:
+   - Tela de login para todos os usuários (alunos, professores e administradores).
+   - Autenticação segura, com SSO
+
+2. Painel de Alunos:
+   - Visualização de trabalhos atribuídos.
+   - Acesso a datas de provas e prazos.
+   - Feed de posts onde podem ver e postar atualizações e perguntas.
+
+3. Painel de Professores:
+   - Capacidade de postar atividades, tarefas e provas.
+   - Publicação de posts para alunos.
+
+4. Painel Administrativo:
+   - Acesso a dados de alunos, incluindo informações pessoais, histórico escolar e documentos.
+   - Monitoramento de mensalidades atrasadas e informações de pagamento.
+   - Armazenamento seguro de documentos relacionados à escola (contratos, políticas, etc.).
+
+5. Banco de Dados:
+   - Armazenamento seguro e organizado de informações de alunos, professores e administradores.
+   - Backup regular dos dados.
+
+6. Integração com Servidor Próprio:
+   - Hospedagem dos dados e do aplicativo em um servidor próprio.
+   - Garantir alta disponibilidade e segurança do servidor.
+
+7. Notificações:
+   - Envio de notificações para alunos e professores sobre novas atividades, prazos e mensalidades atrasadas.
+
+8. Pesquisa e Relatórios:
+   - Capacidade de pesquisar alunos e gerar relatórios sobre o desempenho acadêmico, histórico escolar e informações financeiras.
+
+9. Comunicação:
+   - Sistema de mensagens interno para comunicação entre alunos, professores e administradores.
+
+10. Segurança:
+    - Proteção dos dados pessoais dos alunos.
+    - Implementação de medidas de segurança, como controle de acesso baseado em função.
+
+11. Gestão de Turmas e Disciplinas:
+    - Possibilidade de criar, modificar e excluir turmas e atribuir disciplinas a cada turma.
+    - Associação de alunos e professores a turmas específicas.
+
+12. Controle de Presença:
+    - Registro de presença dos alunos nas aulas.
+    - Geração de relatórios de presença para os professores e administradores.
+
+13. Calendário Escolar:
+    - Exibição do calendário acadêmico com feriados, datas importantes e eventos escolares.
+    - Notificação de eventos próximos aos usuários.
+
+14. Biblioteca Digital:
+    - Catálogo de livros e recursos educacionais disponíveis na escola.
+    - Reservas de livros online e rastreamento de empréstimos.
+
+15. Acesso a Boletins e Notas:
+    - Publicação de boletins e notas dos alunos para que eles possam acompanhar seu desempenho acadêmico.
+    - Notificação automática de novas notas.
+
+16. Avaliações Online:
+    - Suporte a avaliações e testes online para professores e alunos.
+    - Armazenamento seguro de resultados de avaliações.
+
+17. Painel de administração financeira:
+    - Registro de despesas e receitas da escola.
+    - Geração de relatórios financeiros e demonstrações de resultados.
+
+18. Gestão de Documentos:
+    - Armazenamento seguro e organizado de documentos escolares, como regulamentos, políticas e formulários.
+    - Acesso controlado a documentos relevantes para diferentes grupos de usuários.
+
+19. Gestão de Atividades Extracurriculares:
+    - Agendamento e inscrição em atividades extracurriculares, clubes e eventos da escola.
+    - Comunicação e notificação sobre eventos extracurriculares.
+    - Clubes e grupos criados por estudantes.
+
+20. Integração com Serviços Externos:
+    - Integração com sistemas de envio de mensagens, e-mail e SMS para comunicação eficaz com pais e responsáveis.
+    - Notificações automáticas de eventos importantes e atualizações de desempenho dos alunos.
+

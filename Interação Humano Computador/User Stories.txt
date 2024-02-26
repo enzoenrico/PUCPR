@@ -1,0 +1,116 @@
+1: Sistema de Autenticação
+
+Como usuário (aluno, professor ou administrador),
+Gostaria de ter uma tela de login segura para acessar o sistema,
+Para que meus dados e informações pessoais estejam protegidos e só sejam acessíveis por usuários autorizados.
+
+2: Painel de Alunos
+
+Como aluno,
+Gostaria de ter acesso a um painel onde posso ver trabalhos atribuídos, datas de provas e um feed de posts,
+Para que eu possa acompanhar minhas tarefas acadêmicas e interagir com meus colegas e professores.
+
+3: Painel de Professores
+
+Como professor,
+Gostaria de ter a capacidade de postar atividades, tarefas e provas, bem como publicar posts para meus alunos,
+Para que eu possa gerenciar as atividades acadêmicas e me comunicar eficazmente com os alunos.
+
+4: Painel Administrativo
+
+Como membro da equipe administrativa,
+Gostaria de ter acesso a dados de alunos, incluindo informações pessoais, histórico escolar e documentos, bem como monitorar mensalidades atrasadas e armazenar documentos relacionados à escola,
+Para que eu possa gerenciar eficazmente os registros dos alunos e as operações financeiras da escola.
+
+5: Banco de Dados
+
+Como administrador do sistema,
+Gostaria de ter um banco de dados seguro e organizado para armazenar informações de alunos, professores e administradores, bem como realizar backups regulares dos dados,
+Para que os dados estejam sempre disponíveis e protegidos contra perda.
+
+6: Integração com Servidor Próprio
+
+Como administrador de TI,
+Gostaria de hospedar o sistema e os dados em um servidor próprio para garantir alta disponibilidade e segurança,
+Para que possamos manter o controle total sobre o ambiente de hospedagem.
+
+7: Notificações
+
+Como aluno ou professor,
+Gostaria de receber notificações sobre novas atividades, prazos e mensalidades atrasadas,
+Para que eu possa estar sempre atualizado sobre eventos e tarefas importantes.
+
+8: Pesquisa e Relatórios
+
+Como usuário (administrador, professor ou aluno),
+Gostaria de ter a capacidade de pesquisar alunos e gerar relatórios sobre o desempenho acadêmico, histórico escolar e informações financeiras,
+Para que eu possa acessar informações específicas quando necessário.
+
+9: Comunicação
+
+Como usuário (aluno, professor ou administrador),
+Gostaria de ter um sistema de mensagens interno para comunicação entre alunos, professores e administradores,
+Para que possamos nos comunicar de forma eficiente dentro da plataforma.
+
+10: Segurança
+
+Como administrador do sistema,
+Gostaria de garantir a proteção dos dados pessoais dos alunos e a implementação de medidas de segurança, como controle de acesso baseado em função,
+Para que possamos manter a confidencialidade e a integridade dos dados.
+
+- Deve ser implementada segurança robusta
+
+11: Gestão de Turmas e Disciplinas
+
+Como administrador,
+Gostaria de poder criar, modificar e excluir turmas e atribuir disciplinas a cada turma,
+Para que eu possa manter um registro organizado das turmas e das disciplinas que estão sendo ensinadas.
+12: Controle de Presença
+
+Como professor,
+Gostaria de registrar a presença dos alunos em cada aula,
+Para que eu possa manter um controle de frequência eficaz e gerar relatórios de presença quando necessário.
+
+13: Calendário Escolar
+
+Como usuário (aluno, professor ou administrador),
+Gostaria de ver o calendário acadêmico da escola,
+Para que eu possa estar ciente de datas importantes, feriados e eventos escolares.
+
+14: Biblioteca Digital
+
+Como aluno ou professor,
+Gostaria de acessar o catálogo de livros e recursos educacionais da escola online,
+Para que eu possa ver quais recursos estão disponíveis e fazer reservas ou empréstimos quando necessário.
+
+15: Acesso a Boletins e Notas
+
+Como aluno,
+Gostaria de acessar meus boletins e notas online,
+Para que eu possa acompanhar meu desempenho acadêmico de forma conveniente.
+
+16: Avaliações Online
+
+Como professor,
+Gostaria de criar e administrar avaliações e testes online,
+Para que eu possa avaliar o conhecimento dos alunos de forma eficiente.
+
+17: Painel de Administração Financeira
+
+Como membro da equipe administrativa,
+Gostaria de registrar despesas e receitas da escola no sistema,
+Para que possamos manter um controle financeiro preciso da instituição.
+
+18. Gestão de Documentos:
+Eu, como diretor, coordenador e professor, gostaria de armazenar de forma segura documentos escolares para possuir como registro
+Eu, como diretor, gostaria de possuir acesso a todos os documentos disponíveis para futura verificação, validação e modificação
+Eu, como coordenador, gostaria de possuir acesso a todos os documentos relevantes ao meu cargo e demais cargos hierarquicamente abaixo do meu para verificação, validação e modificação.
+
+19. Gestão de Atividades Extracurriculares
+Eu, como coordenador, diretor e professor, quero agendar atividades extracurriculares, divulgar clubes ou eventos escolares para respectiva participação dos alunos.
+Eu, como coordenador, diretor, professor e aluno, quero ser notificado sobre eventos extracurriculares para respectiva participação
+Eu como aluno, gostaria de poder criar grupos para participação de outros envolvidos
+
+20. Integração com Serviços externos
+Eu, como coordenador, diretor e professor, quero poder me comunicar por meio de mensagens, emails ou SMS com os responsáveis dos alunos para discussões sobre ocurridos ou rendimento escolar.
+Eu como coordenar, diretor e professor, quero receber notificações sobre eventos relevantes e atualizações a respeito dos alunos para respectivo acompanhamento

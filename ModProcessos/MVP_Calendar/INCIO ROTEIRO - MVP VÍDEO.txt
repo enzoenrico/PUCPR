@@ -1,0 +1,27 @@
+INCIO ROTEIRO - MVP VÍDEO
+
+```
+Editar vídeo usando roteiro, inserir música de fundo, criar efeitos convidativos. Imagine que é um pitch para um cliente, não perca o investidor!
+```
+
+
+Olá! Meu nome é Enzo Enrico, sou um estudante de engenharia de Software e venho lhe mostrar meu mais novo projeto!
+->ClassMinder
+
+Um grande problema que percebi em meus anos como estudante, é que com diversos prazos, provas, seminários e trabalhos para serem entregues todos os dias, é quase inevitavél perder a organização. (Prints imagens tem trabalho)
+E com os recursos da faculdade é dificl manter a organização dentre equipes, já que todos os alunos sempre tem mais de uma matéria e diferentes grupos para cada trabalho
+
+Dito isso nasceu a idéia do ClassMinder! Um calendário otimizado para ajudar estudantes, feito por estudantes e para estudantes!
+
+O que torna o ClassMinder diferente, é que ele simplesmente funciona. Apenas crie uma conta, entre em sua sala e todos seus compromissos serão mostrados diretamente para você!
+
+O calendário busca resolver o problema da grande demanda de trabalhos e esquecimento de prazos. Sua principal característica é o sistema de grupos. Onde uma vez que um aluno cadastra um grupo, o mesmo fica salvo no banco de dados do webApp, assim, quando um aluno de um grupo adiciona uma nova tarefa, todos são notificados no momento da criação da tarefa e em diversos avisos antes do prazo final.
+O calendário busca dar uma opção mais fácil e intuitiva para dividir tarefas, já que quase nenhum aluno tem tempo de aprender novas ferramentas para produtividade, o "nome" te da isso de forma rápida e fácil. Podendo criar milestones do projeto, a divisão de tarefas se torna mais fácil, e o problema de ter diversos trabalhos para fazer no mesmo dia deixa de existir.
+
+Para que ninguém nunca esqueça nada, existe também o sistema de salas, onde uma sala é cadastrada, professores ou representantes podem marcar provas, seminários ou datas significativas, que todos os alunos dessa sala serão notificados pelo menos 24 horas antes do compromisso, assim dando um tempo final para poder estudar ou finalizar tarefas ainda não conlcuidas.
+
+O ClassMinder possui um design moderno, fácil de entender e com uma interface acolhedora, com alguns recursos especiais que tornam a experiência de usuário algo incrivél! Sem falar de sua velocidade, sendo desenvolvido utilizando React + TailwindCss, tempos de carregamento são mais rápidos do que aplicativos comuns! (Prints site speed sla).
+
+Então não deixe seus compromissos para em cima da hora, com o ClassMinder você pode deixar de se preocupar com compromissos para aproveitar sua experiência universitária! Caso queira saber mais, acompanhe o projeto no Github! Toda semana são adicionadas novas features, acompanhando o projeto você nunca perde algo novo! 
+
+Muito obrigado!

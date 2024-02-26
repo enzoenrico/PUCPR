@@ -1,0 +1,42 @@
+CREATE DATABASE HotelDB;
+USE HotelDB;
+
+
+-- informações dos clientes
+CREATE TABLE Clientes (
+    ClienteID INT AUTO_INCREMENT PRIMARY KEY,
+    CPF VARCHAR(11) NOT NULL,
+    Nome VARCHAR(255) NOT NULL,
+    Sexo ENUM('Masculino', 'Feminino', 'Outro') NOT NULL,
+    Endereco TEXT,
+    Email VARCHAR(100),
+    Telefone VARCHAR(20)
+);
+
+-- informações dos apartamentos
+CREATE TABLE Apartamentos (
+    ApartamentoID INT AUTO_INCREMENT PRIMARY KEY,
+    NumeroUnico INT NOT NULL,
+    ValorPor24Horas DECIMAL(10, 2) NOT NULL
+);
+
+-- informações das hospedagens
+CREATE TABLE Hospedagens (
+    HospedagemID INT AUTO_INCREMENT PRIMARY KEY,
+    ClienteID INT NOT NULL,
+    DataEntrada DATE NOT NULL,
+    NumeroApartamento INT NOT NULL,
+    QuantidadeAcompanhantes INT NOT NULL,
+    ValorTotal DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (ClienteID) REFERENCES Clientes(ClienteID),
+    FOREIGN KEY (NumeroApartamento) REFERENCES Apartamentos(ApartamentoID)
+);
+
+-- serviços consumidos 
+CREATE TABLE ServicosConsumidos (
+    ServicoID INT AUTO_INCREMENT PRIMARY KEY,
+    HospedagemID INT NOT NULL,
+    Descricao VARCHAR(255) NOT NULL,
+    Valor DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (HospedagemID) REFERENCES Hospedagens(HospedagemID)
+);
