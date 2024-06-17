@@ -19,16 +19,30 @@ public class Main {
         // recolorirUmaThread(ImagemOriginal, ImagemResultado);
 
         File outputFile = new File(ARQUIVO_DESTINO);
-        for (int i = 1; i <= 15; i++) {
+        int numberOfThreads = 6;
+        for (int i = 1; i <= 10; i++) {
             long startTime = System.currentTimeMillis();
-            recolorMultithreaded(ImagemOriginal, ImagemResultado, i);
+            recolorMultithreaded(ImagemOriginal, ImagemResultado, numberOfThreads, i);
             long endTime = System.currentTimeMillis();
             long duration = endTime - startTime;
             ImageIO.write(ImagemResultado, "jpg", outputFile);
-            // System.out.println(String.valueOf(duration));
             System.out.println("Tempo de execução: " + duration + "ms");
-            System.err.println("Threads usadas: " + i);
+            System.err.println("Threads usadas: " + 6);
+            System.out.println("Imagem reudiza em: " + i + "x");
+        }
 
+        System.out.println("Processando com uma thread");
+
+        // single-threaded example
+        for (int i = 1; i <= 10; i++) {
+            long startTime = System.currentTimeMillis();
+            recolorMultithreaded(ImagemOriginal, ImagemResultado, 1, i);
+            long endTime = System.currentTimeMillis();
+            long duration = endTime - startTime;
+            ImageIO.write(ImagemResultado, "jpg", outputFile);
+            System.out.println("Tempo de execução: " + duration + "ms");
+            System.err.println("Threads usadas: " + 1);
+            System.out.println("Imagem reudiza em: " + i + "x");
         }
         // int numberOfThreads = 4;
         // recolorMultithreaded(ImagemOriginal, ImagemResultado, numberOfThreads);
@@ -54,12 +68,11 @@ public class Main {
     }
 
     public static void recolorMultithreaded(BufferedImage ImagemOriginal,
-            BufferedImage ImagemResultado, int numberOfThreads) {
+            BufferedImage ImagemResultado, int numberOfThreads, int divideBy) {
         // lista de threads usadas pra executar o código
         List<Thread> threads = new ArrayList<>();
-        int width = ImagemOriginal.getWidth();
-        // fracionando a imagem por altura, separando pelo número de threads
-        int height = ImagemOriginal.getHeight() / numberOfThreads;
+        int width = ImagemOriginal.getWidth() / divideBy;
+        int height = ImagemOriginal.getHeight() / (numberOfThreads * divideBy);
 
         for (int i = 0; i < numberOfThreads; i++) {
             final int threadMultiplier = i;
@@ -113,9 +126,8 @@ public class Main {
         // vermelho em 10; o de verde diminuir 80, azul dimiuir 20
         if (ehNivelDeCinza(red, green, blue)) {
             // para n o exceder o valor m ximo (255) pegamos o min� �
-            // newRed = Math.min(255, red + 220);
-            newRed = 177;
-            newGreen = Math.max(0, green - 80);
+            newRed = Math.min(255, red - 22);
+            newGreen = Math.max(0, green - 20);
             // para n o passar o 0 pegamos o max�
             newBlue = Math.max(0, blue - 10);
         } else {
