@@ -1,0 +1,102 @@
+Tempo de execução: 1778ms
+Threads usadas: 1
+Tempo de execução: 872ms
+Threads usadas: 2
+Tempo de execução: 697ms
+Threads usadas: 3
+Tempo de execução: 670ms
+Threads usadas: 4
+Tempo de execução: 719ms
+Threads usadas: 5
+Tempo de execução: 706ms
+Threads usadas: 6
+Tempo de execução: 655ms
+Threads usadas: 7
+Tempo de execução: 553ms
+Threads usadas: 8
+Tempo de execução: 562ms
+Threads usadas: 9
+Tempo de execução: 556ms
+Threads usadas: 10
+Tempo de execução: 548ms
+Threads usadas: 11
+Tempo de execução: 542ms
+Threads usadas: 12
+Tempo de execução: 589ms
+Threads usadas: 13
+Tempo de execução: 618ms
+Threads usadas: 14
+Tempo de execução: 574ms
+Threads usadas: 15
+Tempo de execução: 485ms
+Threads usadas: 16
+Tempo de execução: 508ms
+Threads usadas: 17
+Tempo de execução: 566ms
+Threads usadas: 18
+Tempo de execução: 473ms
+Threads usadas: 19
+Tempo de execução: 487ms
+Threads usadas: 20
+Tempo de execução: 499ms
+Threads usadas: 21
+Tempo de execução: 526ms
+Threads usadas: 22
+Tempo de execução: 522ms
+Threads usadas: 23
+Tempo de execução: 472ms
+Threads usadas: 24
+Tempo de execução: 513ms
+Threads usadas: 25
+Tempo de execução: 511ms
+Threads usadas: 26
+Tempo de execução: 494ms
+Threads usadas: 27
+Tempo de execução: 449ms
+Threads usadas: 28
+Tempo de execução: 474ms
+Threads usadas: 29
+Tempo de execução: 499ms
+Threads usadas: 30
+Tempo de execução: 441ms
+Threads usadas: 31
+Tempo de execução: 468ms
+Threads usadas: 32
+Tempo de execução: 441ms
+Threads usadas: 33
+Tempo de execução: 503ms
+Threads usadas: 34
+Tempo de execução: 490ms
+Threads usadas: 35
+Tempo de execução: 462ms
+Threads usadas: 36
+Tempo de execução: 454ms
+Threads usadas: 37
+Tempo de execução: 549ms
+Threads usadas: 38
+Tempo de execução: 538ms
+Threads usadas: 39
+Tempo de execução: 554ms
+Threads usadas: 40
+Tempo de execução: 498ms
+Threads usadas: 41
+Tempo de execução: 1899ms
+Threads usadas: 1
+Tempo de execução: 948ms
+Threads usadas: 2
+Tempo de execução: 799ms
+Threads usadas: 3
+Tempo de execução: 666ms
+Threads usadas: 4
+Tempo de execução: 738ms
+Threads usadas: 5
+Tempo de execução: 587ms
+Threads usadas: 6
+Tempo de execução: 655ms
+Threads usadas: 7
+Tempo de execução: 809ms
+Threads usadas: 8
+Tempo de execução: 576ms
+Threads usadas: 9
+Tempo de execução: 550ms
+Threads usadas: 10
